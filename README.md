@@ -38,13 +38,13 @@ catkin_make
 From this moment you can use rosbot simulations. Please remember that each time, when you open new terminal window, you will need to load system variables:
 source ~/catkin_ws_web/devel/setup.sh
 
-E. To launch the Gazebo simulation: 
+E. To launch the Gazebo simulation:  
 roslaunch rosbot_description rosbot_rviz_gmapping.launch
 
 You can run ‘rostopic list’ in terminal to see the topic that is currently running. 
 
 
-3. Installtion of Rosbridge & Ros Web Server (if you haven't installed)
+3. Installtion of Rosbridge & Ros Web Server (if you haven't installed)  
 3.1 Installation of ROS Bridge
 
 Go to src folder that created, 
