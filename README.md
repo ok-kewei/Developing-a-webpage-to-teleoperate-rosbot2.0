@@ -57,9 +57,12 @@ cd ~/catkin_ws_web/src
 sudo apt-get install ros-melodic-web-video-server
 
 4. Establish ROS bridge and Web Video Server
-A. Open a terminal, after running the simulation that mentioned in Step 2E, establish the ROS Bridge, to launch the web sockets to allow web apps to publish or subscribe ROS messages.
-B. Open a new terminal, run roslaunch rosbridge_server rosbridge_websocket.launch
-C. Open a new terminal, rosrun web_video_server web_video_server. Output: go to a browser and type localhost:8080
+A. Open a terminal, after running the simulation that mentioned in Step 2E, establish the ROS Bridge, to launch the web sockets to allow web apps to publish or subscribe ROS messages.  
+
+B. Open a new terminal, run roslaunch rosbridge_server rosbridge_websocket.launch  
+
+C. Open a new terminal, rosrun web_video_server web_video_server. Output: go to a browser and type localhost:8080  
+
 D. Open the index.html file (under src folder)
 
 
