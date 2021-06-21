@@ -1,0 +1,8 @@
+prefix=/home/kewei/catkin_ws_web/install
+
+Name: husky_viz
+Description: Description of husky_viz
+Version: 0.4.4
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

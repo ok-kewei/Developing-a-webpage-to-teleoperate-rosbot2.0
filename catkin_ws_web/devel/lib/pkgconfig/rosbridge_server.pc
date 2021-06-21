@@ -1,0 +1,8 @@
+prefix=/home/kewei/catkin_ws_web/devel
+
+Name: rosbridge_server
+Description: Description of rosbridge_server
+Version: 0.11.13
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

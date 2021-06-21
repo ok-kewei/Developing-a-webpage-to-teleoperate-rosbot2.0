@@ -1,0 +1,8 @@
+prefix=/home/kewei/catkin_ws_web/devel
+
+Name: husky_highlevel_controller
+Description: Description of husky_highlevel_controller
+Version: 0.0.0
+Cflags: -I/home/kewei/catkin_ws_web/devel/include
+Libs: -L${prefix}/lib 
+Requires: 

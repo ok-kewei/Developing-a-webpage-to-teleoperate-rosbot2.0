@@ -1,0 +1,8 @@
+prefix=/home/kewei/catkin_ws_web/devel
+
+Name: husky_msgs
+Description: Description of husky_msgs
+Version: 0.4.4
+Cflags: -I/home/kewei/catkin_ws_web/devel/include
+Libs: -L${prefix}/lib 
+Requires: std_msgs message_runtime

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script type="text/javascript" src="http://static.robotwebtools.org/EventEmitter2/current/eventemitter2.min.js"></script>
+    <script type="text/javascript" src="http://static.robotwebtools.org/roslibjs/current/roslib.min.js"></script>
+    <script type="text/javascript" src="http://static.robotwebtools.org/keyboardteleopjs/current/keyboardteleop.min.js"></script>
+    
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/nipplejs/0.7.3/nipplejs.js"></script>
+    <title>Web Interface for Rosbot2.0</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script type="text/javascript" type="text/javascript"></script>
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div class ="header">
+        <div class="container"></div>
+            <h1>Teleoperation for <span>Rosbot2.0</span></h1>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row" >
+            <div class="col-6">
+                <p> Image Video Live Streaming </p>
+                <img src="" class="p-1 bg-dark" alt="" id="video" width="800" height="500" />
+            </div>
+
+            <div class="col-6">
+                <p> Depth Video Live Streaming </p>
+                <img src="" class="p-1 bg-dark" alt="" id="videoDepth" width="800" height="500" />
+            </div>
+        </div>
+    </div>
+  
+    <div class="container">
+        <div class="row"></div>
+            <h2>To control <span>Rosbot2.0</span> </h2>
+            <p>Connection status: <span id="status"></span></p>
+            <p>Tele-Operate via Keyboard: Press WASD key from keyboard to move Forward, Left, Backward and Right</p>
+
+            <!-- <p>Last message on /txt_msg: <span id="msg"></span></p> -->
+        </div>
+
+    </div>
+
+
+    <div class="row" >
+        <div class="col-3">
+            <h3> Virtual Joystick  Controller</h3>
+            <p> Click and drag the joystick to move the robot </p>
+            <hr>
+            <div id="zone_joystick" style="position: relative;"></div>
+        </div>
+
+        <div class="col-3">
+            <h3> Speed Slider</h3>
+            <hr>
+
+                <label for="robot-speed">
+                    <strong>Robot speed</strong>
+                </label>
+                <input type="range" min="15" max="80" class="custom-range" id="robot-speed">
+      
+            <!-- <div class="robot-speed"></div> -->
+<!--             <div id="speed-label"></div>
+            <div id="speed-slider"> </div> -->
+            <!-- <button style="background-color:white; height: 100px; width:150px; color: red; border-color: grey" onclick="stop()">Stop!</button> -->
+
+        </div>
+
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body text-center">
+                    <h3 class="text-center">Topic</h3>
+                    <hr>
+                    <p>Subscribing robot /Odom data</p>
+                    <p>X: <span id ="positionX"> </span></p>
+                    <p>Y: <span id ="positionY"> </span></p>
+                    <p>Z: <span id ="positionZ"> </span></p>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,8 @@
+prefix=/home/kewei/catkin_ws_web/devel
+
+Name: husky_control
+Description: Description of husky_control
+Version: 0.4.4
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

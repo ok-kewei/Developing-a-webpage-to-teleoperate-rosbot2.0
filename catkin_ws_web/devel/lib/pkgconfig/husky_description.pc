@@ -1,0 +1,8 @@
+prefix=/home/kewei/catkin_ws_web/devel
+
+Name: husky_description
+Description: Description of husky_description
+Version: 0.4.4
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

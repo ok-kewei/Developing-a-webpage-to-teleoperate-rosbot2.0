@@ -1,0 +1,8 @@
+prefix=/home/kewei/catkin_ws_web/devel
+
+Name: husky_navigation
+Description: Description of husky_navigation
+Version: 0.4.4
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
