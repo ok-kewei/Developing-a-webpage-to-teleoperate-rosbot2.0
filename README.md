@@ -1,7 +1,5 @@
 # Developing-a-webpage-to-teleoperate-rosbot2.0
 
-# Developing-a-webpage-to-teleoperate-rosbot2.0
-
 Created a webpage to teleoperate-rosbot 2.0 by using html + javascript + css
 
 To create a Ros Environment [Command in terminal]
